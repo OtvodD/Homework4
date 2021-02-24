@@ -104,7 +104,8 @@ public class Main {
         map[y][x] = DOT_O;
     }
 
-    public static boolean isCellValid(int x, int y) {
+    public static boolean isCellValid(int x, int y)
+    {
         if (x < 0 || x >= SIZE || y < 0 || y >= SIZE) {
             return false;
         }
